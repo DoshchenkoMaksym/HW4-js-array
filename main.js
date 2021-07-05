@@ -55,3 +55,12 @@ function slArray(arr, startIndex, endIndex) {
 let range = slArray(arr4, 1, 4);
 console.log(range);
 console.log(arr4);
+console.log('------------- # 12')
+
+function sum(...args){
+    let sumAll = 0;
+    for (let arg of args) sumAll += arg;
+    return sumAll;
+}
+console.log('Use sum(...arg)');
+console.log(sum(1,2,3,4,5,6,7,8,9));
