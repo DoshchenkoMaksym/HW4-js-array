@@ -46,3 +46,12 @@ function separation(string, sep) {
     return string.split(sep);
 };
 console.log(separation(example, ' '));
+
+console.log('------------- # 11')
+let arr4 = [5, 3, 8, 1];
+function slArray(arr, startIndex, endIndex) {
+  return arr.slice(startIndex, endIndex); 
+}
+let range = slArray(arr4, 1, 4);
+console.log(range);
+console.log(arr4);
