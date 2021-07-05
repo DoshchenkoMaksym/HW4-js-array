@@ -13,3 +13,7 @@ console.log('------------- # 5')
 let shortString = 'my-short-string'
 let arr1 = shortString.split('-');
 console.log(arr1);
+console.log('------------- # 6')
+let scriptArr = ['JavaScript', 2015];
+let arr2 = scriptArr.join(' ');
+console.log(arr2);
