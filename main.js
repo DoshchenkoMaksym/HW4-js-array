@@ -40,3 +40,9 @@ function filterRangeInPlace(arr, a, b) {
 };
 filterRangeInPlace(arr3, 1, 4);
 console.log(arr3);
+console.log('------------- # 10')
+let example = 'Some string for example';
+function separation(string, sep) {
+    return string.split(sep);
+};
+console.log(separation(example, ' '));
