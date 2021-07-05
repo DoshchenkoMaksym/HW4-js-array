@@ -17,3 +17,9 @@ console.log('------------- # 6')
 let scriptArr = ['JavaScript', 2015];
 let arr2 = scriptArr.join(' ');
 console.log(arr2);
+console.log('------------- # 7')
+let users = [
+    { id: 1, name: 'Vic', age: 21 },
+    { id: 2, name: 'Petya', age: 30 },
+    { id: 3, name: 'John', age: 5 }
+];
