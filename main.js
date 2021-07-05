@@ -23,3 +23,9 @@ let users = [
     { id: 2, name: 'Petya', age: 30 },
     { id: 3, name: 'John', age: 5 }
 ];
+let olderUsers = users.filter(function (item) { return item.age < 20 });
+console.log(olderUsers);
+
+console.log('------------- # 8')
+let names = users.map(item => { return item.name });
+console.log(names);
