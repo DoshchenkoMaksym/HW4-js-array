@@ -29,3 +29,14 @@ console.log(olderUsers);
 console.log('------------- # 8')
 let names = users.map(item => { return item.name });
 console.log(names);
+console.log('------------- # 9')
+let arr3 = [5, 3, 8, 1];
+function filterRangeInPlace(arr, a, b) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] < a || arr[i] > b) {
+            arr.splice(i, 1);
+        };
+    };
+};
+filterRangeInPlace(arr3, 1, 4);
+console.log(arr3);
